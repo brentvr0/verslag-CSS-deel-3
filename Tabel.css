@@ -1,0 +1,103 @@
+body  {
+    background-image: image("Images/opdracht persoonlijke homepage.png");
+    background-color: aqua;
+}
+.datagrid table
+{
+    border-collapse: collapse;
+    text-align: left;
+    width: 100%;
+}
+.datagrid
+{font: normal 12px/150% Verdana, Arial, Helvetica, sans-serif;
+    background: #fff;
+    overflow: hidden;
+    border: 1px solid #F8FF30;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+}
+.datagrid table td, .datagrid table th
+{
+    padding: 15px 20px;
+}
+.datagrid table thead th
+{background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #F8FF2E), color-stop(1, #FF261F) );
+    background:-moz-linear-gradient( center top, #F8FF2E 5%, #FF261F 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#F8FF2E', endColorstr='#FF261F');
+    background-color:#F8FF2E;
+    color:#FFFFFF;
+    font-size: 14px;
+    font-weight: bold;
+    border-left: 0px solid #F8FF30;
+}
+.datagrid table thead th:first-child
+{ border: none;
+}
+.datagrid table tbody td
+{
+    color: #00496B;
+    font-size: 13px;
+    font-weight: normal;
+}
+.datagrid table tbody td:first-child
+{
+    border-left: none;
+}
+.datagrid table tbody tr:last-child td
+{
+    border-bottom: none;
+}
+.datagrid table tfoot td div
+{
+    border-top: 1px solid #F8FF30;
+    background: #E1EEF4;
+}
+.datagrid table tfoot td
+{
+    padding: 0;
+    font-size: 14px
+}
+.datagrid table tfoot td div
+{
+    padding: 10px;
+}
+.datagrid table tfoot td ul
+{
+    margin: 0;
+    padding:0;
+    list-style: none;
+    text-align: right;
+}
+.datagrid table tfoot  li
+{
+    display: inline;
+}
+.datagrid table tfoot li a
+{
+    text-decoration: none;
+    display: inline-block;
+    padding: 2px 8px;
+    margin: 1px;
+    color: #FFFFFF;
+    border: 1px solid #006699;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #006699), color-stop(1, #00557F) );
+    background:-moz-linear-gradient( center top, #006699 5%, #00557F 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#006699', endColorstr='#00557F');
+    background-color:#006699;
+}
+.datagrid table tfoot ul.active, .datagrid table tfoot ul a:hover
+{
+    text-decoration: none;
+    border-color: #006699;
+    color: #FFFFFF;
+    background: none;
+    background-color:#00557F;
+}
+a:hover {
+    border: 10px greenyellow solid;
+}
+p.dotted {border-style: dotted;} {border-width:2px;}
